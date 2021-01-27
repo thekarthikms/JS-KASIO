@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calc : By Karthik MS </title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calc-container">
+            <div class="cal">
+                <h1>JS:KASIO</h1>
+            </div>
+            <div id="result">
+            
+            </div>
+            
+            <div id="btns">
+                <div id="calc-buttons">
+                    <div class="operands">
+                        <div class="sec">
+                            <button id="btn1" class="btn" onclick = "append('1')">1</button>
+                            <button id="btn2" class="btn" onclick = "append('2')">2</button>
+                            <button id="btn3" class="btn" onclick = "append('3')">3</button>
+                        </div>
+                        <div class="sec">
+                            <button id="btn4" class="btn" onclick = "append('4')">4</button>
+                            <button id="btn5" class="btn" onclick = "append('5')">5</button>
+                            <button id="btn6" class="btn" onclick = "append('6')">6</button>
+                        </div>
+                        <div class="sec">
+                            <button id="btn7" class="btn" onclick = "append('7')">7</button>
+                            <button id="btn8" class="btn" onclick = "append('8')">8</button>
+                            <button id="btn9" class="btn" onclick = "append('9')">9</button>
+                        </div>
+                        <div class="sec">
+                            <button id="btnClr" class="btn" onclick="disclr()">C</button>
+                            <button id="btn0" class="btn" onclick = "append('0')">0</button>
+                            <button id="btnEql" class="btn" onclick="resdis()">=</button>
+                        </div>
+                    </div>
+                    
+                    <div class="operators">
+                        <button id="add" class="btn" onclick="assign('+')">+</button>
+                        <button id="sub" class="btn" onclick="assign('-')">-</button>
+                        <button id="mul" class="btn" onclick="assign('*')">*</button>
+                        <button id="div" class="btn" onclick="assign('/')">/</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

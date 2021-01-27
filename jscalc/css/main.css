@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&family=Press+Start+2P&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: inherit;
+    
+}
+
+.container .calc-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(34, 34, 34);
+    padding: 20px;
+    border-radius: 5%;
+    border: 10px solid rgb(83, 83, 83);
+}
+
+.container .calc-container .cal h1{
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-stretch: ultra-expanded;
+    font-family: 'Audiowide',sans-serif;
+}
+.container #result{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 130px;
+    background:rgb(102, 170, 102);
+    border: 10px solid rgb(35, 95, 35);
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 5rem;
+    padding: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    overflow: hidden;
+}
+
+.container #btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(34, 42, 73);
+    width: 90%;
+    border: 10px solid rgb(62, 98, 156);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 30px;
+    
+}
+.container #btns #calc-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container #btns #calc-buttons .operators{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.container #btns #calc-buttons .operands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.container #btns #calc-buttons .operands .sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* margin: 10px; */
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid rgb(87, 103, 117);
+    font-size: 3rem;
+    border-radius: 10px;
+    font-weight: bold;
+    outline: none;
+}
+
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9,#btn0{
+    background-color: rgb(110, 123, 160);
+    color: white;
+
+}
+
+#btnClr{
+    background-color: coral;
+    color: white;
+}
+
+#add,#sub,#mul,#div{
+    background-color: rgb(255, 202, 55);
+}
+
+
